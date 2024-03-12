@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <title>Pagina de Miguel</title>
+</head>
+<body>
+    <style>
+        img{
+            width:200px;
+            height:auto;
+        }
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px black;
+            margin-left:50px ;
+        }
+        th,tr{
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(149, 220, 246);
+        }
+        tr:hover{
+            background-color: rgb(238, 255, 210);
+        }
+    </style>
+    <div style="margin: 24px;">
+        <nav class="navba navbar-light"
+        style="background-color: rgb(137, 215, 248);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color: rgb(0, 0, 0);"
+            >Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNabDropDown">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item
+                     dropdown">
+                     <a class="nav-link dropdown-toggle"
+                     href="" id="navbarDropdownMenuLink"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">Unidad 1</a>
+                     <div class="dropdown-menu"
+                     aria-labelledby="navbarDripdownMenuLink">
+                     <a class="dropdown-item" href="perfil.html">Perfil</a><br>
+                     <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                     <a class="dropdown-item" href="tienda.html">Tienda parte 1</a><br>
+                     </div>
+                    </li>
+                    <li class="nav-item
+                    dropdown">
+                    <a class="nav-link dropdown-toggle"
+                    href="" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">Unidad 2</a>
+                    <div class="dropdown-menu"
+                    aria-labelledby="navbarDripdownMenuLink">
+                    <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                    <a class="dropdown-item" href="json.html">JSON</a><br>
+                    <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                    </div>
+                   </li>
+                   <li class="nav-item
+                   dropdown">
+                   <a class="nav-link dropdown-toggle"
+                   href="" id="navbarDropdownMenuLink"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">Unidad 3</a>
+                   <div class="dropdown-menu"
+                   aria-labelledby="navbarDripdownMenuLink">
+                   <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+                   <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                   </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div style="margin:24px;">
+    </div>
+    <a href="tienda.html"></a>
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno1.jpg" alt="Desayuno"></td>
+            <td><p>¿A quién no le apetece un desayuno de película? Seguro que alguna vez has soñado con esas tortitas que aparecen en las películas americanas, pues ahora puedes darte ese capricho y hacerlo de la forma más saludable. </p></td>
+            <td>$58</td> 
+        </tr>
+        <tr>
+            <td><img src="img/desayuno2.jpg" alt="Desayuno"></td>
+            <td><p>Un desayuno que aporta calcio y energía, y además fácil de preparar, es un bowl de yogur natural con fruta cortada en trocitos</p></td>
+            <td>$23</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno3.jpg" alt="Desayuno"></td>
+            <td><p>La avena es un alimento cargado de propiedades beneficiosas y, lo mejor, es un cereal que puedes mezclar con cualquier tipo de topping. Ya que hablamos de un cereal que aporta muchos beneficios para la salud, estamos seguros de que es la idea perfecta para comenzar el día con fuerza. </p></td>
+            <td>$96</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno4.jpg" alt="Desayuno"></td>
+            <td><p>Un batido de frutas o verduras es una de las formas más completas para beneficiarse de los nutrientes que necesita el organismo.</p></td>
+            <td>$86</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno5.jpg" alt="Desayuno"></td>
+            <td><p>Ya que con el desayuno debes cargar las pilar para aguantar las jornadas frenéticas de trabajo y estudio, es esencial saber elegir qué productos comer. Nosotros nos hemos vuelto adictos a una buena tostada integral con ingredientes sanos.</p></td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="img/desayuno6jpg.jpg" alt="Desayuno"></td>
+            <td><p>¿Quién ha dicho que las tortitas no pueden ser sanas? Existe la manera saludable de prepararlas para disfrutar de un desayuno fácil, rico en sabor y nutrientes.</p></td>
+            <td>$60</td>
+        </tr>
+
+    
+    </table>
+    <h1>Almuerzos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo1.jpg" alt="Almuerzo"></td>
+            <td><p></p>El brócoli es una verdura con muchos nutrientes, pero un bajo aporte de calorías. Además, su contenido en grasas es casi mínimo. Ayuda a regular los niveles de colesterol en sangre, contiene vitamina A, B9, C, E, ácido fólico y tiene un gran contenido en fibra. Inclúyelo en tus almuerzos saludables o si estás intentando perder peso. </td>
+            <td>$56</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo2.jpg" alt="Almuerzo"></td>
+            <td><p></p>El calabacín es una verdura con grandes beneficios. Es una gran fuente de antioxidantes y aporta vitamina A, E, B y C (esta última si se consume crudo o ligeramente cocinado al vapor). También es diurético y tiene apenas 15 calorías.</td>
+            <td>$34</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo3.jpg" alt="Almuerzo"></td>
+            <td><p> </p>El aguacate es una fruta con muchas propiedades y es perfecto para preparar un almuerzo saludable que te dé energía para el resto del día. Aunque tiene un 23% de grasas monoinsaturadas (las sanas, que son casi como las mismas que las del aceite de oliva), es rico en vitamina E y también contiene vitamina C, A y varios minerales: potasio, calcio, magnesio, fósforo, hierro, zinc y cobre.</td>
+            <td>$90</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo4jpg.jpg" alt="Almuerzo"></td>
+            <td><p>Las alcachofas son una verdura que te ayudarán a perder peso y, además, depuran el organismo y evitan la retención de líquidos. Asimismo, son ricas en fibra, minerales y oligoelementos; hepatoprotectoras, antioxidantes, estimulantes para el intestino.</p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo5.jpg" alt="Almuerzo"></td>
+            <td><p></p>Aunque un poco más calórica, por su aporte de grasas en la receta, esta propuesta sana para el almuerzo está deliciosa y, al contener zanahoria y naranja, te aportará un gran contenido en vitaminas A, E y C, así como un gran contenido en fibra.</td>
+            <td>$90</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo6.jpg" alt="Almuerzo"></td>
+            <td><p>Los mejillones son un marisco delicioso y que cuentan con un elevado contenido en vitamina A, vitaminas del grupo B, vitamina C, D, E y K. También tienen propiedades antiinflamatorias debido al alto contenido en ácidos grasos omega-3. Por su parte, las gambas son ricas en vitaminas B3, B12, D, E y K, y tienen un alto contenido en proteínas y minerales, como el yodo.</p></td>
+            <td>$187</td>
+        </tr>
+
+    
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/comida1.jpg" alt="Comida"></td>
+            <td><p>La cocina es una recompensa para el paladar y en México si estás celebrando algo probablemente el plato principal en la mesa será un buen Mole. En nuestro país podrás encontrar una gran variedad de ellos, algunos llegan a ser tan sofisticados que pueden contener un sinfín de ingredientes de diferentes partes del mundo que al mezclarlos correctamente toman una identidad indudablemente mexicana. Es una salsa que está viva y de verdad al ponerlo en tu boca literalmente se vuelve una gran fiesta para el paladar.</p></td>
+            <td>$97</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida2.jpg" alt="Comida"></td>
+            <td><p>Para hablar de este delicioso guiso hay que remontarnos un poco en la historia ya que varios Frailes comenzaron a documentar su existencia. Fray Bernardino de Sahagún, escribió sobre el singular platillo en su monumental obra: Historia general de las cosas de la Nueva España. Podemos afirmar que lo escribió con repugnancia, ya que los antiguos mexicas preparaban el pozole con carne de los cautivos sacrificados en algunas fiestas, principalmente la dedicada a Nuestro Señor el Desollado, Xipe Totec. Dicho festejo llevaba el nombre de Tlacaxipehualiztli.
+
+                Hoy en día dicho platillo tiene una preparación diferente y más civilizada ya que en nuestros días se hace con carne de cerdo. En la actualidad el pozole ha sufrido cambios y diferencias asociadas con la región donde se prepara y consume. En el estado de Guerrero se prepara el blanco y el verde, mientras que en la Ciudad de México, Sinaloa, Nayarit y Jalisco se consume la variante roja.</p></td>
+            <td>$34</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida3.jpg" alt="Comida"></td>
+            <td><p>Podríamos afirmar que este es uno de los platillos más representativos, bellos y deliciosos que podrás encontrar en nuestra  gastronomía. Existen diferentes versiones acerca de su aparición, pero se sabe que este platillo data de 1821, año en el cual Agustín de Iturbide firmó el acta de los tratados de Córdoba. Algunos cuentan que fueron las madres agustinas del Convento de Santa Mónica en Puebla las que al saber que Don Agustín estaría en esa ciudad para celebrar su santo, el 28 de agosto, decidieron elaborar un platillo que recordara los colores de la bandera. Hoy en día es uno de los platillos principales que acompañan nuestras fiestas patrias.</p></td>
+            <td>$84</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida4.jpg" alt="Comida"></td>
+            <td><p>La barbacoa es un método de cocción prehispánico que consistía en formar un hoyo en la tierra, calentarlo con brasas de leña y colocar piedras para cocinar a altas temperaturas. Sobre estas piedras se ponían las carnes que habían de cocerse envueltas en hojas de plátano o maguey dependiendo de la región; para finalizar su preparación las carnes se colocaban bajo tierra y se dejaban cocinar por largas horas. Hoy sin duda se ha vuelto una exquisitez y para algunos, un remedio delicioso y eficaz para la resaca.</p></td>
+            <td>$64</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida5.jpg" alt="Comida"></td>
+            <td><p>Los domingos, las carnitas conforman uno de los rituales más íntimos de la vida en México.
+
+                Es un paisaje cotidiano. Las personas llegan, se acercan, miran, van pidiendo y de alguna manera se acomodan, ya puede ser de pie o sentados, lo importante es encontrar un espacio suficiente como para alzar el codo. Aquí los dedos se llenan de grasa, también el bigote y, en un descuido, hasta la ropa; más allá del alimento, los tacos de carnitas son una actitud ante la vida.
+                
+                En la búsqueda de sabores, sazón y riqueza, hay quienes agregan al perol de las carnitas ingredientes exóticos como frutas, chiles, azúcar, leche o refrescos. En fin, cada uno con su cada cual, para hacer la diferencia, el detalle de distinción, el gesto poderoso, aquello que dé a las carnitas un toque personal.</p></td>
+            <td>$67</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida6.jpg" alt="Comida"></td>
+            <td><p>México tiene la suerte de contar con el Océano Pacifico y el Golfo de México. Ir de vacaciones a las playas de Guerrero representa no solo disfrutar del sol y las olas, sino también deleitarse con su gastronomía.
+
+                Y no hay mejor emblema de esta comida que el Pescado a la talla, el cual es abierto en mariposa y es cocinado a las brasas, y se unta una salsa roja preparada con chiles y especias.
+                
+                Con apenas 50 años, ya es uno de los representantes del puerto de Acapulco y es que esta delicia que actualmente podemos disfrutar en las palapas o restaurantes a la orilla del Pacifico, en especial en Barra Vieja, Guerrero, es creación de Beto Godoy y su esposa, Gregoria Galeana.</p></td>
+            <td>$87</td>
+        </tr>
+    </table>
+    <h1>Bebidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/bebida1.jpg" alt="Bebida"></td>
+            <td><p>El agua de jaimaica es una bebida muy rica y diurética. Esta bebida se acostumbra tomar en México en las comidas, cenas, fiestas, etc. </p></td>
+            <td>$32</td>
+        </tr>
+        <tr>
+            <td><img src="img/bebida2.jpg" alt="Bebida"></td>
+            <td><p>En México el agua de horchata es un clásico, hecha a base de arroz con un toque de canela y leche. Encontrarás varias versiones a que muchos la preparan con mezclando leche evaporada y condensada.</p></td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="img/bebida3.jpg" alt="Bebida"></td>
+            <td><p>El zumo de naranja contiene gran cantidad de vitamina C (ácido ascórbico). Algunos fábricantes añaden ácido cítrico o ácido ascórbico a sus productos, además de otros micronutrientes como el calcio y la vitamina D. El zumo de naranja fresco parece más nutritivo que las versiones sin pulpa debido a la presencia de los flavonoides que existen en la pulpa. La calidad del zumo de naranja se ve influenciada principalmente por factores microbiológicos, enzimáticos, químicos y físicos, que suelen ser los que determinan las características organolépticas (aroma, sabor, color, consistencia, estabilidad y turbidez, separación de las fases sólidas/líquidas) así como las características nutricionales (vitaminas). En conjunto estos factores y sus alteraciones se producen durante la cadena de refrigeración, distribución y almacenamiento del producto. </p></td>
+            <td>$76</td>
+        </tr>
+        <tr>
+            <td><img src="img/bebida4.jpg" alt="Bebida"></td>
+            <td><p>EEl melón tiene una alta concentración de vitamina A y C, es diurético, ayuda a rehidratar y contiene pocas calorías. Es excelente depurativo y rehidratante.</p></td>
+            <td>$64</td>
+        </tr>
+        <tr>
+            <td><img src="img/bebida5.jpg" alt="Bebida"></td>
+            <td><p>La sandía dulce es una muy buena opción para preparar un agua fresca ya que se compone 90% de agua, nos sirve para hidratarnos rápido y debido a su sabor dulce, puedes hacerla con poco azúcar. ¡Rica y refrescante!
+            </p></td>
+            <td>$34</td>
+        </tr>
+        <tr>
+            <td><img src="img/bebida6.jpg" alt="Bebida"></td>
+            <td><p>El primer paso que dio lugar a la elaboración de los refrescos modernos se produjo a finales del siglo XVIII, cuando comenzó a utilizarse el término “soda” para denominar a una bebida elaborada a partir de agua, bicarbonato sódico y anhídrido carbónico.</p></td>
+            <td>$56</td>
+        </tr>
+
+    </table>
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/postre1.jpg" alt="Postre"></td>
+            <td><p>Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos.
+
+                Según la historia, la receta original fue creada en 1832 en honor al príncipe Matternich y posteriormente ha sido servida en el histórico café del Hotel Sacher en Viena. Se cuenta que este hotel fue fundado por la familia del creador de este postre delicioso y han mantenido el secreto muy bien guardado a través de los años.</p></td>
+            <td>$79</td>
+        </tr>
+        <tr>
+            <td><img src="img/postre2.jpg" alt="Postre"></td>
+            <td><p>El Gelato es originario de Italia, sin embargo existen gelaterias en muchos países de Latinoamérica y Europa en donde se respetan los originales modos de preparación. Este postre es exquisito y sumamente saludable. Como dicen en Italia: “Un verdadero arte culinario”. La diferencia entre este postre y el helado son los productos. Para preparar gelato se utilizan productos 100% naturales y no tienen tanta grasa ni azúcar como el helado, además son mucho más cremosos. Si aún no has probado un gelato, no dudes en hacerlo y date un gustito.</p></td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="img/postre3.jpg" alt="Postre"></td>
+            <td><p>Es otro postre frío de origen italiano y está hecho a base de café, licor y crema. Su preparación es sencilla, solo hay que humedecer un bizcocho con una mezcla de café y licor y superponerlo en capas, alternando entre la crema y el bizcocho. Sin embargo existen muchas variantes de acuerdo a los lugares en donde se ha vuelto muy famoso. Y como no, si es realmente delicioso.</p></td>
+            <td>$89</td>
+        </tr>
+        <tr>
+            <td><img src="img/postre4.jpg" alt="Postre"></td>
+            <td><p>Panna Cotta, es un dulce especial de origen italiano, parecido al flan y con una textura suave y gelatinosa. Se considera uno de los postres más fáciles de preparar y también uno de los más famosos en este país. Seguro nunca escuchaste hablar de él, pero si lo pruebas no lo olvidarás nunca.
+
+                Su nombre en español significa “nata cocida” y está hecho a base de crema de leche, azúcar y gelatinizantes. Este postre clásico lleva una deliciosa salsa de frutas encima y se suele decorar con frutos rojos, lo que le da un sabor agridulce que te deja con ganas de más. Realmente tentador ¿verdad?</p></td>
+            <td>$75</td>
+        </tr>
+        <tr>
+            <td><img src="img/postre5.jpg" alt="Postre"></td>
+            <td><p>Pastéis de Belém, es un postre originario de Portugal, perfecto para compartir. Según cuenta la leyenda, la receta de este postre lleva en secreto por más de 200 años y solo 3 personas en el mundo la conocen. Este postre fue creado a principios del siglo XIX, como una iniciativa de negocio en la época de revolución en Portugal. Así que tengan por seguro que probarlas será todo un privilegio de esta lista. 
+
+                Estos pequeños pasteles tienen forma de tartaleta y están elaborados con masa de hojaldre y crema. Aunque hay recetas caseras que se acercan mucho, se dice que el postre original es tan delicioso que se forman largas filas en la histórica fábrica que las prepara, así que pueden llegar a vender hasta 20.000 unidades en un sólo día.</p></td>
+            <td>$67</td>
+        </tr>
+        <tr>
+            <td><img src="img/postre6.jpg" alt="Postre"></td>
+            <td>Pávlola, es un postre que transmite dulzura, sin duda. El origen de este postre se lo disputan Nueva Zelanda y Australia. El postre fue inspirado en una bailarina rusa, Anna Pávlola, y es de ella que recibe el nombre de pávlola. Según se cuenta, el creador del postre vivía enamorado de esta bailarina.
+
+                La Pávlola consiste en una base de merengue horneado sobre la cual se coloca crema batida, chocolate y trozos de fruta, en especial los frutos rojos. Su textura resulta crocante por fuera y húmeda por dentro. Una verdadera delicia.<p></p></td>
+            <td>$54</td>
+        </tr>
+    </table>
+
+</body>
+</html>
